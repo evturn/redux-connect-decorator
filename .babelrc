@@ -6,5 +6,12 @@
   "plugins": [
     "babel-plugin-transform-decorators-legacy",
     "babel-plugin-transform-decorators"
-  ]
+  ],
+  "env": {
+    "commonjs": {
+      "plugins": [
+        ["transform-es2015-modules-commonjs", {"loose": true}]
+      ]
+    }
+  }
 }
