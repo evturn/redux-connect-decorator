@@ -1,6 +1,6 @@
 {
   "name": "redux-connect-decorator",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "React Redux's connect as a decorator.",
   "main": "./lib/index.js",
   "module": "es/index.js",
